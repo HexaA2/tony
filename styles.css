@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&display=swap');
+
+body {
+    background-color: #131316;
+    color: #ffffff;
+    font-family:'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+
+section{
+    display:grid;
+    place-items:center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    min-height:100vh;
+}
+
+.name {
+    font-family: Fira Mono,monospace;
+    font-display: swap;
+    color: #fff;
+    margin: 0;
+    font-size: min(8vw,128px);
+    font-weight: 700
+}
+
+.description {
+    font-family: Fira Mono,monospace;
+    font-display: swap;
+    color: #fff;
+    margin: 0;
+    font-size: min(4vw,48px)
+}
+
+a {
+    color: #fff;
+}
+
+.projects{
+    font-size: min(4vw,48px)
+}
+
+.hidden {
+    opacity:0;
+    transition: all 3s;
+} 
+
+.hidden2 {
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 2s;
+}
+
+.visible{
+    opacity:1;
+    filter: blur(0);
+    transform:translateX(0);
+}
+
+.logos{
+    display: flex;
+}
+
+.logo:nth-child(2){
+    transition-delay: 200ms
+}
