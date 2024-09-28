@@ -75,6 +75,7 @@ a {
     gap: 16px;
     padding: 16px;
     justify-content: center; /* Center the grid items */
+    width: 80%;
 }
 
 .project-box {
