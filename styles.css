@@ -71,32 +71,32 @@ a {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Always 2 columns */
+    grid-template-columns: repeat(3, 1fr); 
     gap: 16px;
     padding: 16px;
-    justify-content: center; /* Center the grid items */
+    justify-content: center;
     width: 80%;
 }
 
 .project-box {
     filter: brightness(0.8);
     position: relative;
-    width: 100%; /* Take full width of the grid column */
-    height: 200px; /* Fixed height */
+    width: 100%; 
+    height: 200px; 
     overflow: hidden;
     border-radius: 8px;
     display: block;
     text-decoration: none;
     color: inherit;
-    border: 2px solid black; /* Black border */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Black shadow */
-    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition for shadow and transform */
+    border: 2px solid black; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .project-box img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Cover the box area while maintaining aspect ratio */
+    object-fit: cover;
     display: block;
 }
 
@@ -106,7 +106,7 @@ a {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Black overlay with opacity */
+    background: rgba(0, 0, 0, 0.5);
     color: white;
     display: flex;
     align-items: center;
@@ -120,8 +120,8 @@ a {
 }
 
 .project-box:hover {
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7); /* Darker shadow on hover */
-    transform: scale(1.05); /* Slightly enlarge the box on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+    transform: scale(1.05); 
 }
 
 .overlay h2 {
